@@ -172,6 +172,14 @@ export const posthogConfig: Partial<PostHogConfig> = {
   api_host: 'https://app.posthog.com'
 }
 
+
+
+export const firebaseCollectionImages = getEnv('FIREBASE_COLLECTION_IMAGES', 'images')
+export const firebaseCollectionPageviews = getEnv('FIREBASE_COLLECTION_PAGEVIEWS', 'pageviews')
+export const firebaseCollectionFeedbacks = getEnv('FIREBASE_COLLECTION_FEEDBACKS', 'feedbacks')
+export const googleAnalyticsId = getEnv('GOOGLE_ANALYTICS_ID', "")
+
+
 function cleanPageUrlMap(
   pageUrlMap: PageUrlOverridesMap,
   {
