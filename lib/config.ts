@@ -177,7 +177,7 @@ export const posthogConfig: Partial<PostHogConfig> = {
 export const firebaseCollectionImages = getEnv('FIREBASE_COLLECTION_IMAGES', 'images')
 export const firebaseCollectionPageviews = getEnv('FIREBASE_COLLECTION_PAGEVIEWS', 'pageviews')
 export const firebaseCollectionFeedbacks = getEnv('FIREBASE_COLLECTION_FEEDBACKS', 'feedbacks')
-export const googleAnalyticsId = getEnv('GOOGLE_ANALYTICS_ID', "")
+export const googleAnalyticsTrackingId = getEnv('GOOGLE_ANALYTICS_TRACKING_ID', "")
 
 
 function cleanPageUrlMap(
