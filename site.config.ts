@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Xuetong Wu',
-  domain: 'xuetongwu.site',
+  domain: 'notion-blog-sigma-three-19.vercel.app',
   author: 'Xuetong Wu',
 
   // open graph metadata (optional)
